@@ -26,9 +26,7 @@ Tline::Tline(const Tline &otherTable)
 Tline::~Tline()
 {
 	delete[] MemTable;
-	delete[] Memtmp;
 	MemTable = NULL;
-	Memtmp = NULL;
 }
 
 bool Tline::IsEmpty()

@@ -4,10 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{11DAB55B-034F-4EA5-8DD0-352411C73247}"
+	ProjectSection(ProjectDependencies) = postProject
+		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5} = {585B5315-BB39-48F3-A1B7-B1BFF090F0A5}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineTable", "LineTable\LineTable.vcxproj", "{C415910B-2A4B-4C12-8CAF-8B34D806410A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample", "Sample\Sample.vcxproj", "{12702233-1DA9-46AB-91CB-08B4915E69DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "GoogleTest\GoogleTest.vcxproj", "{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}"
 EndProject
@@ -25,10 +26,6 @@ Global
 		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Debug|Win32.Build.0 = Debug|Win32
 		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Release|Win32.ActiveCfg = Release|Win32
 		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Release|Win32.Build.0 = Release|Win32
-		{12702233-1DA9-46AB-91CB-08B4915E69DC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{12702233-1DA9-46AB-91CB-08B4915E69DC}.Debug|Win32.Build.0 = Debug|Win32
-		{12702233-1DA9-46AB-91CB-08B4915E69DC}.Release|Win32.ActiveCfg = Release|Win32
-		{12702233-1DA9-46AB-91CB-08B4915E69DC}.Release|Win32.Build.0 = Release|Win32
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Debug|Win32.Build.0 = Debug|Win32
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Release|Win32.ActiveCfg = Release|Win32
