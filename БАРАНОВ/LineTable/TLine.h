@@ -3,7 +3,8 @@
 
 const unsigned int MaxSize = 100;
 #include <string>    
-#include <locale>    
+#include <iostream>  
+#include <iomanip>
 using namespace std;
 
 class Tline
@@ -19,7 +20,7 @@ public:
 	~Tline();                        
 	bool IsEmpty();                 
 	bool IsFull();                  
-	void add(const string &newElem, const string &newName);
+	void add(const string &newName, const string &newElem);
 	int popID();
 	int topID();
 	int sesearchID(const string &Elem);

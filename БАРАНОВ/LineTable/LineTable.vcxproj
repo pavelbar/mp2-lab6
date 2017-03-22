@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Sample\main.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="TLine.cpp" />
   </ItemGroup>
   <ItemGroup>

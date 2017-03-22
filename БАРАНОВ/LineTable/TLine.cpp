@@ -1,5 +1,4 @@
 ﻿#include "Tline.h"
-#include <iostream>  
 
 Tline::Tline(int sizeTable)
 {
@@ -39,7 +38,7 @@ bool Tline::IsFull()
 	return (count == SizeTable);
 }
 
-void Tline::add(const string &newElem, const string &newName)
+void Tline::add(const string &newName, const string &newElem)
 {
 	if (IsFull())  throw (SizeTable);
 	MemTable[count][0] = newName;
@@ -74,19 +73,27 @@ int Tline::sesearchID(const string &Elem)
 
 void Tline::printTable()
 {
-	cout << endl << "Вывод таблицы: " << endl;
 	if (count == 0)
 		cout << " Таблица пуста\n";
+	
 	else
 	{
-		int tmp = count;
-		while (tmp != 0)
+	int tmp = 0;
+	cout << endl;
+		cout << "	+=============================================================+" << endl;
+		cout << left << "	|" << setw(30) << "Name:" << "|" << setw(30) << "Value:" << "|" << endl;
+		cout << "	+=============================================================+" << endl;
+		while (tmp != count)
 		{
-			cout << MemTable[tmp][0] << " " << MemTable[tmp][1];
-			tmp--;
+			cout << "	|" << setw(30) << MemTable[tmp][0] << "|" << setw(30) << MemTable[tmp][1] << "|" << endl;
+			cout << "	+-------------------------------------------------------------+" << endl;
+			tmp++;
+
 		}
+		
 		cout << endl;
 	}
+	
 }
 
 int Tline::get_size()
