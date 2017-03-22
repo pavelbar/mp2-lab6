@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "GoogleTest\Go
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{11DAB55B-034F-4EA5-8DD0-352411C73247}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineTable", "LineTable\LineTable.vcxproj", "{C415910B-2A4B-4C12-8CAF-8B34D806410A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{11DAB55B-034F-4EA5-8DD0-352411C73247}.Debug|Win32.Build.0 = Debug|Win32
 		{11DAB55B-034F-4EA5-8DD0-352411C73247}.Release|Win32.ActiveCfg = Release|Win32
 		{11DAB55B-034F-4EA5-8DD0-352411C73247}.Release|Win32.Build.0 = Release|Win32
+		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Debug|Win32.Build.0 = Debug|Win32
+		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Release|Win32.ActiveCfg = Release|Win32
+		{C415910B-2A4B-4C12-8CAF-8B34D806410A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
