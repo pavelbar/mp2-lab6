@@ -11,10 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TLine.h" />
+    <ClCompile Include="..\Sample\main.cpp" />
+    <ClCompile Include="TLine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TLine.cpp" />
+    <ClInclude Include="TLine.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C415910B-2A4B-4C12-8CAF-8B34D806410A}</ProjectGuid>
@@ -58,6 +59,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\lab6\БАРАНОВ\LineTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
