@@ -21,9 +21,3 @@ int main()
 	test.printTable();
 	return 0;
 }
-
-//лишнее
-/*
-test.add("pasha", "privet", test.get_count());
-test.add("nekit", "kakdela", test.get_count());
-*/
