@@ -21,11 +21,15 @@ public:
 	bool IsEmpty();                 
 	bool IsFull();                  
 	void add(const string &newName, const string &newElem);
-	int popID();
-	int topID();
-	int sesearchID(const string &Elem);
-	void printTable();               
-	int get_size();                 
+	int popID();//удалить и вернуть
+	int topID();//вернуть
+	int searchID_argOne(const string &Elem);
+	int searchID_argTwo(const string &Elem);
+	void printTable();
+	void printLine(int N);
+	int get_size();    
+	string get_argOne_Of_Line_N(int N);
+	string get_argTwo_Of_Line_N(int N);
 };
 
 #endif 

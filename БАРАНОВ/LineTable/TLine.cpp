@@ -46,20 +46,32 @@ void Tline::add(const string &newName, const string &newElem)
 	count++;
 }
 
-int Tline::popID()
+int Tline::popID()//удалить и вернуть
 {
 	if (IsEmpty()) throw (count);
 	count--;
 	return count;
 }
 
-int Tline::topID()
+int Tline::topID()//вернуть
 {
 	if (IsEmpty()) throw (count);
 	return count;
 }
 
-int Tline::sesearchID(const string &Elem)
+int Tline::searchID_argOne(const string &Elem)
+{
+	if (IsEmpty()) throw (count);
+	//--Линейный поиск, нужно заменить
+	for (int i = 0; i < SizeTable; i++)
+	{
+		if (MemTable[i][0] == Elem)
+			return i;
+	}
+	return -1;
+}
+
+int Tline::searchID_argTwo(const string &Elem)
 {
 	if (IsEmpty()) throw (count);
 	//--Линейный поиск, нужно заменить
@@ -71,11 +83,22 @@ int Tline::sesearchID(const string &Elem)
 	return -1;
 }
 
+void Tline::printLine(int N)
+{
+	if ((N < 0) || (N> count - 1)) throw (N);
+	cout << endl;
+	cout << "	+=============================================================+" << endl;
+	cout << left << "	|" << setw(30) << "Name:" << "|" << setw(30) << "Value:" << "|" << endl;
+	cout << "	+=============================================================+" << endl;
+	cout << "	|" << setw(30) << MemTable[N][0] << "|" << setw(30) << MemTable[N][1] << "|" << endl;
+	cout << "	+-------------------------------------------------------------+" << endl;
+
+}
+
 void Tline::printTable()
 {
 	if (count == 0)
 		cout << " Таблица пуста\n";
-	
 	else
 	{
 	int tmp = 0;
@@ -83,7 +106,7 @@ void Tline::printTable()
 		cout << "	+=============================================================+" << endl;
 		cout << left << "	|" << setw(30) << "Name:" << "|" << setw(30) << "Value:" << "|" << endl;
 		cout << "	+=============================================================+" << endl;
-		while (tmp != count)
+		while (tmp != count - 1)
 		{
 			cout << "	|" << setw(30) << MemTable[tmp][0] << "|" << setw(30) << MemTable[tmp][1] << "|" << endl;
 			cout << "	+-------------------------------------------------------------+" << endl;
@@ -99,4 +122,16 @@ void Tline::printTable()
 int Tline::get_size()
 {
 	return count;
+}
+
+string Tline::get_argOne_Of_Line_N(int N)
+{
+	if ((N < 0) || (N> count-1)) throw (N);
+	return MemTable[N][0];
+}
+
+string Tline::get_argTwo_Of_Line_N(int N)
+{
+	if ((N < 0) || (N> count - 1)) throw (N);
+	return MemTable[N][1];
 }
