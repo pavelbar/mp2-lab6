@@ -141,6 +141,10 @@ string Tline::get_argTwo_Of_Line_N(int N)
 	return MemTable[N][1];
 }
 
+
+
+
+
 //Лишнее
 /*
 void Tline::add(const string &newName, const string &newElem, int pos )
@@ -164,3 +168,5 @@ int Tline::topID()//вернуть
 	return count;
 }
 */
+
+
