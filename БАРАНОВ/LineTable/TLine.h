@@ -16,21 +16,21 @@ protected:
 	int count;
 	int SizeTable;
 public:
-	Tline(int sizeTable);		//have testa
+	Tline(int sizeTable);		//have tests
 	Tline(const Tline &otherTable);
 	~Tline();                        
-	bool IsEmpty();		//have testa          
-	bool IsFull();		//have testa
-	int get_SizeTable();		//have testa  
-	int get_count();		//have testa  
+	bool IsEmpty();		//have tests          
+	bool IsFull();		//have tests
+	int get_SizeTable();		//have tests  
+	int get_count();		//have tests  
 	void printTable();
 	void printLine(int N);
-	void add(const string &newName, const string &newElem);		//have testa
+	void add(const string &newName, const string &newElem);		//have tests
 	void dell(int pos);		//have testa
-	int searchID_argOne(const string &Elem);		//have testa
-	int searchID_argTwo(const string &Elem);		//have testa
-	string get_argOne_Of_Line_N(int N);		//have testa
-	string get_argTwo_Of_Line_N(int N);		//have testa
+	int searchID_argOne(const string &Elem);		//have tests
+	int searchID_argTwo(const string &Elem);		//have tests
+	string get_argOne_Of_Line_N(int N);		//have tests
+	string get_argTwo_Of_Line_N(int N);		//have tests
 };
 
 #endif 
