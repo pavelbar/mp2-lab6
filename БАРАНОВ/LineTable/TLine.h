@@ -15,24 +15,27 @@ protected:
 	int count;
 	int SizeTable;
 public:
-	Tline(int sizeTable);            
+	Tline(int sizeTable);		//have testa
 	Tline(const Tline &otherTable);
 	~Tline();                        
-	bool IsEmpty();                 
-	bool IsFull();   
-	int get_SizeTable();
-	int get_count();
+	bool IsEmpty();		//have testa          
+	bool IsFull();		//have testa
+	int get_SizeTable();		//have testa  
+	int get_count();		//have testa  
 	void printTable();
 	void printLine(int N);
-	void add(const string &newName, const string &newElem, int pos);
+	void add(const string &newName, const string &newElem);		//have testa
 	void dell(int pos);
-	int popID();//удалить последнюю потом вернуть  
-	int topID();//вернуть
-	int searchID_argOne(const string &Elem);
-	int searchID_argTwo(const string &Elem);
-	string get_argOne_Of_Line_N(int N);
-	string get_argTwo_Of_Line_N(int N);
-
+	int searchID_argOne(const string &Elem);		//have testa
+	int searchID_argTwo(const string &Elem);		//have testa
+	string get_argOne_Of_Line_N(int N);		//have testa
+	string get_argTwo_Of_Line_N(int N);		//have testa
 };
 
 #endif 
+//Лишнее
+/*
+void add(const string &newName, const string &newElem, int pos);
+int popID();//удалить последнюю потом вернуть
+int topID();//вернуть
+*/
