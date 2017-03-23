@@ -12,6 +12,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineTable", "LineTable\Line
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "GoogleTest\GoogleTest.vcxproj", "{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortTable", "SortTable\SortTable.vcxproj", "{869BD5B5-1BC6-45B0-8E5B-55E57BD7496F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C415910B-2A4B-4C12-8CAF-8B34D806410A} = {C415910B-2A4B-4C12-8CAF-8B34D806410A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -30,6 +35,10 @@ Global
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Debug|Win32.Build.0 = Debug|Win32
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Release|Win32.ActiveCfg = Release|Win32
 		{585B5315-BB39-48F3-A1B7-B1BFF090F0A5}.Release|Win32.Build.0 = Release|Win32
+		{869BD5B5-1BC6-45B0-8E5B-55E57BD7496F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{869BD5B5-1BC6-45B0-8E5B-55E57BD7496F}.Debug|Win32.Build.0 = Debug|Win32
+		{869BD5B5-1BC6-45B0-8E5B-55E57BD7496F}.Release|Win32.ActiveCfg = Release|Win32
+		{869BD5B5-1BC6-45B0-8E5B-55E57BD7496F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

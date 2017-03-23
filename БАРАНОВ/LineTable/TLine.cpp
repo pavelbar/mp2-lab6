@@ -56,7 +56,6 @@ void Tline::dell(int pos)
 			MemTable[pos] = MemTable[pos + 1];
 		count--;
 	}
-
 }
 
 
@@ -64,7 +63,7 @@ int Tline::searchID_argOne(const string &Elem)
 {
 	if (IsEmpty()) throw (count);
 	//--Линейный поиск, нужно заменить
-	for (int i = 0; i < SizeTable; i++)
+	for (int i = 0; i < count; i++)
 	{
 		if (MemTable[i][0] == Elem)
 			return i;
@@ -76,7 +75,7 @@ int Tline::searchID_argTwo(const string &Elem)
 {
 	if (IsEmpty()) throw (count);
 	//--Линейный поиск, нужно заменить
-	for (int i = 0; i < SizeTable; i++)
+	for (int i = 0; i < count; i++)
 	{
 		if (MemTable[i][1] == Elem)
 			return i;
@@ -106,16 +105,14 @@ void Tline::printTable()
 	}
 	else
 	{
-	int tmp = 0;
 	cout << endl;
 		cout << "	+=============================================================+" << endl;
 		cout << left << "	|" << setw(30) << "Name:" << "|" << setw(30) << "Value:" << "|" << endl;
 		cout << "	+=============================================================+" << endl;
-		while (tmp != count)
+		for (int i = 0; i < count; i++)
 		{
-			cout << "	|" << setw(30) << MemTable[tmp][0] << "|" << setw(30) << MemTable[tmp][1] << "|" << endl;
+			cout << "	|" << setw(30) << MemTable[i][0] << "|" << setw(30) << MemTable[i][1] << "|" << endl;
 			cout << "	+-------------------------------------------------------------+" << endl;
-			tmp++;
 		}		
 		cout << endl;
 	}
