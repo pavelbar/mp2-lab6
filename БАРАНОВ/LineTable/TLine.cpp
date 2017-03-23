@@ -38,15 +38,15 @@ bool Tline::IsFull()
 	return (count == SizeTable);
 }
 
-void Tline::add(const string &newName, const string &newElem)
+void Tline::add(const string &newName, const string &newElem, int pos )
 {
 	if (IsFull())  throw (SizeTable);
-	MemTable[count][0] = newName;
-	MemTable[count][1] = newElem;
-	count++;
+	MemTable[pos][0] = newName;
+	MemTable[pos][1] = newElem;
+	if (pos==count) count++;
 }
 
-int Tline::popID()//удалить и вернуть
+int Tline::popID()//удалить последнюю потом вернуть  
 {
 	if (IsEmpty()) throw (count);
 	count--;
@@ -106,7 +106,7 @@ void Tline::printTable()
 		cout << "	+=============================================================+" << endl;
 		cout << left << "	|" << setw(30) << "Name:" << "|" << setw(30) << "Value:" << "|" << endl;
 		cout << "	+=============================================================+" << endl;
-		while (tmp != count - 1)
+		while (tmp != count)
 		{
 			cout << "	|" << setw(30) << MemTable[tmp][0] << "|" << setw(30) << MemTable[tmp][1] << "|" << endl;
 			cout << "	+-------------------------------------------------------------+" << endl;
@@ -119,9 +119,14 @@ void Tline::printTable()
 	
 }
 
-int Tline::get_size()
+int Tline::get_count()
 {
 	return count;
+}
+
+int Tline::get_SizeTable()
+{
+	return SizeTable;
 }
 
 string Tline::get_argOne_Of_Line_N(int N)

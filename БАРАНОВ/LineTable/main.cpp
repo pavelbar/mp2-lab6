@@ -3,8 +3,10 @@
 int main()
 {
 	Tline test(5);
-	test.add("pasha", "privet");
-	test.add("nekit", "kakdela");
+	test.add("pasha", "privet", test.get_count());
+	test.add("nekit", "kakdela", test.get_count());
+	test.printTable();
+	test.add("jena", "hello", 0);
 	test.printTable();
 	test.printLine(0);
 	test.printLine(1);

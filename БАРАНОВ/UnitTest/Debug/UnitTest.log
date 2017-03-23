@@ -1,0 +1,63 @@
+﻿Сборка начата 23.03.2017 10:44:35.
+     1>Проект "C:\lab6\БАРАНОВ\UnitTest\UnitTest.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\lab6\БАРАНОВ\LineTable" /I"C:\lab6\БАРАНОВ\\" /I"C:\lab6\БАРАНОВ\GoogleTest" /I"C:\lab6\БАРАНОВ\GoogleTest\Debug" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\LineTable\TLine.cpp
+         TLine.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\lab6\БАРАНОВ\LineTable" /I"C:\lab6\БАРАНОВ\LineTable" /I"C:\lab6\БАРАНОВ\\" /I"C:\lab6\БАРАНОВ\GoogleTest" /I"C:\lab6\БАРАНОВ\GoogleTest\Debug" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test_LineTable.cpp
+         test_LineTable.cpp
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(29): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(30): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(31): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(50): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(58): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(66): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(67): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(75): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(76): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(84): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(85): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(86): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(94): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(95): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(96): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(106): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(114): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(115): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(123): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(124): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(125): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(135): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(143): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(144): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(152): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(153): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(154): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(163): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(164): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(177): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(184): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(185): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(198): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(206): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(207): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(208): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(216): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(217): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(218): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(226): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(227): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(228): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(236): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(237): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(238): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(246): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(247): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(248): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(256): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(257): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>c:\lab6\баранов\unittest\test_linetable.cpp(258): error C2660: Tline::add: функция не принимает 2 аргументов
+     1>Сборка проекта "C:\lab6\БАРАНОВ\UnitTest\UnitTest.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.97

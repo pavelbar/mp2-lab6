@@ -19,17 +19,20 @@ public:
 	Tline(const Tline &otherTable);
 	~Tline();                        
 	bool IsEmpty();                 
-	bool IsFull();                  
-	void add(const string &newName, const string &newElem);
-	int popID();//удалить и вернуть
+	bool IsFull();   
+	int get_SizeTable();
+	int get_count();
+	void printTable();
+	void printLine(int N);
+	void add(const string &newName, const string &newElem, int pos);
+	void dell(int pos);
+	int popID();//удалить последнюю потом вернуть  
 	int topID();//вернуть
 	int searchID_argOne(const string &Elem);
 	int searchID_argTwo(const string &Elem);
-	void printTable();
-	void printLine(int N);
-	int get_size();    
 	string get_argOne_Of_Line_N(int N);
 	string get_argTwo_Of_Line_N(int N);
+
 };
 
 #endif 
