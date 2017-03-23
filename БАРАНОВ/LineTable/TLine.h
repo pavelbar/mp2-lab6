@@ -32,15 +32,15 @@ public:
 	string get_argTwo_Of_Line_N(int N);		//have testa
 	virtual void sort()
 	{
-		string temp;
+		string* temp;
 		// —ортировка массива пузырьком, нужно заменить
 		for (int i = 0; i < count - 1; i++) {
 			for (int j = 0; j < count - i - 1; j++) {
 				if (MemTable[j][0] > MemTable[j + 1][0])
 				{
-					temp = MemTable[j][0];
-					MemTable[j][0] = MemTable[j + 1][0];
-					MemTable[j + 1][0] = temp;
+					temp = MemTable[j];
+					MemTable[j] = MemTable[j + 1];
+					MemTable[j + 1] = temp;
 				}
 			}
 		}
